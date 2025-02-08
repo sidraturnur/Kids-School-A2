@@ -23,6 +23,50 @@
     margin-right: 30px;
 
   }
+  .hero-kid{
+    width: 100% ;
+  }
+
+  @media screen and (max-width: 576px){
+    .nav-item{
+      display: none;
+    }
+    .brand{
+      display: none;
+    }
+    .btn-1{
+      display: none;
+    }
+     .nav-link{
+      display: none;
+     }
+     .banner{
+      flex-direction: column-reverse;
+      justify-content: center;
+     }
+     .banner-content,
+     .banner-title,
+     .banner-desc{
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+     }
+     .btn-2{
+      display: block;
+     }
+     .carriculum-content{
+      flex-direction: column;
+     }
+     .story-1{
+      display: none;
+     }
+     .row{
+      flex-direction: column;
+      margin-left: 20px;
+     }
+  }
+    
+
   .orange{
     color: orange ;
   }
@@ -79,6 +123,7 @@ background-color: black;
     font-size: 1.2rem;
 
 }
+
 .body{
     background: url("/assets/bg.png"), linear-gradient(-180deg, #fff, rgba(255, 244, 220, 1));
     text-align: center;
@@ -95,7 +140,7 @@ background-color: black;
   display: flex;
   justify-content: space-around;
   margin: 20px 70px;
-  gap: 5px;
+  gap: 20px;
 }
 
 
@@ -106,7 +151,7 @@ box-shadow:  0px 6px 100px 0px rgba(14, 14, 14, 0.2);
 padding: 40px 8px;
 border-radius: 18px;
 text-align: center;
-width: 25%;
+width: 100%;
 }
 .card-2{
   background: linear-gradient(180deg, rgba(255, 244, 220, 1) , #fff) ;
@@ -115,7 +160,7 @@ box-shadow:  0px 6px 100px 0px rgba(14, 14, 14, 0.2);
 padding: 40px 8px;
 border-radius: 18px;
 text-align: center;
-width: 25%;
+width: 100%;
 
 }
 .card-3{
@@ -125,7 +170,7 @@ box-shadow:  0px 6px 100px 0px rgba(14, 14, 14, 0.2);
 padding: 40px 8px;
 border-radius: 18px;
 text-align: center;
-width: 25%;
+width: 100%;
 }
 .arrow-btn-grp{
   margin: 80px;
@@ -165,14 +210,7 @@ width: 25%;
   padding: 60px;
   
 }
-.date {
-  font-size: smaller;
-  color: white;
-  margin-bottom: 5px;
-  background-color: aqua;
-  border-radius: 10px;
-  
-}
+
 .story-1{
   display: flex;
   flex-direction: column;
@@ -268,7 +306,7 @@ margin: auto;
   
    .row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     
   } 
   
@@ -296,7 +334,6 @@ margin: auto;
   .logo-text{
     display: flex;
     gap: 2px;
-    margin-right:20px;
   }
  .foot-link{
  list-style-type: none;
@@ -310,6 +347,7 @@ margin: auto;
  }
  .abt-scl{
   text-align: left;
+  
  }
  .story-1-header{
   display: block;
