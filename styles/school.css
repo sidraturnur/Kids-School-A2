@@ -64,6 +64,13 @@
       flex-direction: column;
       margin-left: 20px;
      }
+     .row{
+      flex-direction: column;
+     }
+     .arrow-btn-grp{
+      display: none;
+     }
+    
   }
     
 
@@ -306,7 +313,7 @@ margin: auto;
   
    .row {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     
   } 
   
@@ -314,7 +321,10 @@ margin: auto;
     margin-right: 20px;
     text-align: left;
   }
-  
+
+.about-foot{
+  text-align: left;
+}
 
   
   .social-icons {
@@ -360,4 +370,9 @@ margin: auto;
   height: auto;
   margin-bottom: 10px;
   border-radius: 8px;
+ }
+ .logo-head{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
  }
